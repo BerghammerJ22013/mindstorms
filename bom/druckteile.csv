@@ -1,0 +1,4 @@
+teil,datei,material,infill,gewicht_g_100pct,druckzeit,hinweis
+Toleranz-Testteil,cad/toleranz_test.scad,PLA,100%,4.9,ca. 10 min (Schaetzung),zuerst drucken; Lochmasse danach in pin_d eintragen
+Sensor-Frontplatte,cad/sensor_halter.scad,PLA,40%,7.6,ca. 20 min (Schaetzung),Gewicht bei 40% Infill ca. 4 g (Schaetzung)
+Raspberry-Pi-Halter (optional),cad/pi_halter.scad,PLA,40%,13.8,ca. 35 min (Schaetzung),nur wenn Pi gekauft wird; Bohrungen am Board nachmessen
