@@ -1,0 +1,52 @@
+0 FILE racecar.ldr
+0 Mindstorms Racecar (Platzhalter-Layout)
+0 Author: team
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 chassis.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 antrieb.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 lenkung.ldr
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 sensorik.ldr
+0 FILE chassis.ldr
+0 chassis
+0 // EV3 Brick
+1 15 0 0 0 1 0 0 0 1 0 0 0 1 95646c01.dat
+0 STEP
+0 FILE antrieb.ldr
+0 antrieb
+0 // Large Motor links
+1 71 -150 70 101 1 0 0 0 1 0 0 0 1 95658.dat
+0 STEP
+0 // Large Motor rechts
+1 71 150 70 101 1 0 0 0 1 0 0 0 1 95658.dat
+0 STEP
+0 // Felge links
+1 71 -260 50 60 0 0 1 0 1 0 -1 0 0 56908.dat
+0 STEP
+0 // Reifen links
+1 0 -260 50 60 0 0 1 0 1 0 -1 0 0 41897.dat
+0 STEP
+0 // Felge rechts
+1 71 260 50 60 0 0 1 0 1 0 -1 0 0 56908.dat
+0 STEP
+0 // Reifen rechts
+1 0 260 50 60 0 0 1 0 1 0 -1 0 0 41897.dat
+0 STEP
+0 FILE lenkung.ldr
+0 lenkung
+0 // Medium Motor Lenkung
+1 71 0 40 -330 1 0 0 0 1 0 0 0 1 99455.dat
+0 STEP
+0 // Vorderrad links
+1 0 -70 60 -240 0 0 1 0 1 0 -1 0 0 2815.dat
+0 STEP
+0 // Vorderrad rechts
+1 0 70 60 -240 0 0 1 0 1 0 -1 0 0 2815.dat
+0 STEP
+0 FILE sensorik.ldr
+0 sensorik
+0 // Gyro
+1 71 0 -28 0 1 0 0 0 1 0 0 0 1 99380.dat
+0 STEP
+0 // Ultraschall
+1 71 0 30 -359 1 0 0 0 1 0 0 0 1 95652.dat
+0 STEP
