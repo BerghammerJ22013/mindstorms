@@ -14,3 +14,6 @@ Mit nur einem Set fehlt für ein 4-rädriges Auto ein zweites Paar großer Räde
 Hinweis: Menge je Lot (2 Stück) und die genauen Stückpreise stehen nicht im Screenshot und sind nicht bestätigt; Versand und Steuern werden erst beim Checkout endgültig berechnet. Der Warenkorb ist noch **nicht bestellt**.
 
 Teile von zuhause zählen mit Gebrauchtpreis (eBay, Willhaben).
+
+## Ersatzteile (optional)
+`bom/ersatzteile.csv` und `bom/bricklink_wanted_ersatz.xml`: 10 Positionen, Preise offen. Am besten beim gleichen Haendler (bricksbyaj) in dieselbe Bestellung, damit der Versand (3,90 EUR) nur einmal anfaellt. Preise der Positionen in der CSV ergaenzen.
