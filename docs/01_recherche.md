@@ -39,9 +39,14 @@ Vorläufige Empfehlung: **EV3 MicroPython** als Start. Es ist einfach, deckt die
 ## 5. Motordaten – NICHT verifiziert
 Drehzahl, Drehmoment und Strom von Large/Medium Motor stehen hier bewusst nicht. Die übliche Quelle (philohome.com) liefert hier nur eine JS-Prüfseite, ev3dev nennt nur die Spannung 9 V und "no load" ohne Zahlen im abgerufenen Ausschnitt. Offen: Werte aus einer prüfbaren Quelle holen oder am Auto selbst messen (`motor.speed()` und `battery.voltage()`).
 
-## 6. Offene Punkte
-- Set-Typ bestätigen (45544 beider Sets?).
-- Fremdmotoren erlaubt: Spannungs-/Leistungslimit unbekannt.
-- Gang-Maße, Wände, Untergrund unbekannt.
-- Drucker-Modell/Filament der Schule unbekannt.
+## 6. Antworten vom Team (2026-10-02)
+- Set: 45544, beide Sets gleich, **wir rechnen nur mit einem Set** (`data/combined_inventory.csv` nur als Reserve).
+- Strecke: ca. 20 m lang, 2 m breit, Beton; Runden vermutlich, nicht sicher.
+- Fremdmotor-Limit: nicht bekannt. Gedruckte Räder: vermutlich erlaubt (nicht bestätigt). Kein Gewichts-/Größenlimit.
+- Drucker: PLA, Modell unbekannt. Kamera müsste gekauft werden. Motordaten müssen gemessen werden. Rollen sind verteilt.
+
+## 7. Offene Punkte
+- Fremdmotor-Limit und Regel zu gedruckten Rädern beim Kunden bestätigen lassen.
+- Drucker-Modell und weitere Filamente (TPU?) unbekannt.
+- Bluetooth-Dongle vs. Verbot kabelloser Verbindungen: Kunde fragen.
 - Preise: keine BrickLink-API, Preise kommen über Wanted-List-Upload (Phase 5).

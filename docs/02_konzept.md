@@ -15,6 +15,9 @@ Schulgang im EG, ohne Linie, autonom, alle Autos starten gleichzeitig, Stören e
 | Kosten | ca. 0–30 € | + Motor, Treiber, Akku: Schätzung 30–70 € | + Pi/Kamera: nur wenn Schule keinen stellt |
 | Risiko | niedrig | mittel: Regelkonformität, Verkabelung | hoch: Software-Aufwand |
 
+## Update 2026-10-02 (Antworten des Teams)
+Nur 1 Set, Gang ca. 20 × 2 m Beton, also lange, breite Strecke mit wenigen engen Kurven. Das begünstigt Höchstgeschwindigkeit und Geradeauslauf (Gyro). Kein Differential im Set: **je 1 Large Motor pro Hinterrad, Differenz per Software**, Medium Motor lenkt vorne (Lego-Zentrallenkung). Auf Beton ist Grip gut, Reifen eher weich/groß wählen; Kamera nur nach Messung und Preis.
+
 ## Empfehlung
 **A als Basis, B als Ausbaustufe, C nur wenn Preis und Zeit passen.** Grund: A erfüllt alle Pflichten mit Schulmaterial, ist ohne Zukäufe testbar und liefert zuerst Messwerte. Danach entscheiden Messdaten, ob ein Fremdmotor den Aufwand lohnt. Bei Kurven im Gang zählt Stabilität mehr als Spitzengeschwindigkeit.
 
