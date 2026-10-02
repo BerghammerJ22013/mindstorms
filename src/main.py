@@ -36,9 +36,7 @@ def run():
     while True:
         if sonic.distance() < WALL_MM:
             target += 30                       # Kurs anpassen
-            gyro_err = target - gyro.angle()
-        else:
-            gyro_err = target - gyro.angle()
+        gyro_err = target - gyro.angle()
         steer.run_target(500, clamp(KP * gyro_err, STEER_LIMIT), then=Stop.HOLD, wait=False)
         drive_l.run(DRIVE_SPEED)
         drive_r.run(DRIVE_SPEED)
